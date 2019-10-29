@@ -1,0 +1,6 @@
+RUN	simulations.CheckResponseBodyAndExtract		checkresponsebodyandextract	1572338274690	 	2.0
+USER	Get Product Details	1	START	1572338275958	1572338275958
+REQUEST	Get Product Details	1		Get Prduct Details by Id --> 1st call	1572338275985	1572338276036	OK	 
+REQUEST	Get Product Details	1		Get all Product Details --> 2nd call	1572338276167	1572338276184	OK	 
+REQUEST	Get Product Details	1		Get Specific product based on parameter passed --> 2nd call	1572338276212	1572338276219	OK	 
+USER	Get Product Details	1	END	1572338275958	1572338276223

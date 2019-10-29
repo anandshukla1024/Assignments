@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.AddPauseTime",
+  "simulationId": "addpausetime",
+  "start": 1572331896319,
+  "description": "",
+  "scenarios": ["Get Product Details"],
+  "assertions": [
+
+  ]
+}

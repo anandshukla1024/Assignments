@@ -1,0 +1,4 @@
+RUN	simulations.CheckResponseBodyAndExtract		checkresponsebodyandextract	1572334987353	 	2.0
+USER	Get Product Details	1	START	1572334988692	1572334988692
+REQUEST	Get Product Details	1		Get Prduct Details by Id	1572334988717	1572334988736	OK	 
+USER	Get Product Details	1	END	1572334988692	1572334988843

@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.CheckResponseBodyAndExtract",
+  "simulationId": "checkresponsebodyandextract",
+  "start": 1572334987353,
+  "description": "",
+  "scenarios": ["Get Product Details"],
+  "assertions": [
+
+  ]
+}

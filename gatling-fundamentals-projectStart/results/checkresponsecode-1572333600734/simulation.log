@@ -1,0 +1,6 @@
+RUN	simulations.CheckResponseCode		checkresponsecode	1572333600734	 	2.0
+USER	Get Product Details	1	START	1572333602127	1572333602127
+REQUEST	Get Product Details	1		Get all Product Details --> 1st call	1572333602153	1572333602183	KO	status.find.is(400), but actually found 200
+REQUEST	Get Product Details	1		Get Prduct Details by Id	1572333602208	1572333602220	OK	 
+REQUEST	Get Product Details	1		Get all Product Details --> 2nd call	1572333602222	1572333602228	OK	 
+USER	Get Product Details	1	END	1572333602127	1572333602230

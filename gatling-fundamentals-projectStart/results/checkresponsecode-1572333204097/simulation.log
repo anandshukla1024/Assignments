@@ -1,0 +1,6 @@
+RUN	simulations.CheckResponseCode		checkresponsecode	1572333204097	 	2.0
+USER	Get Product Details	1	START	1572333205604	1572333205604
+REQUEST	Get Product Details	1		Get all Product Details --> 1st call	1572333205629	1572333206653	OK	 
+REQUEST	Get Product Details	1		Get Prduct Details by Id	1572333206673	1572333206689	OK	 
+REQUEST	Get Product Details	1		Get all Product Details --> 2nd call	1572333206690	1572333206697	OK	 
+USER	Get Product Details	1	END	1572333205604	1572333206699

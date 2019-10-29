@@ -1,0 +1,6 @@
+RUN	simulations.AddPauseTime		addpausetime	1572331896319	 	2.0
+USER	Get Product Details	1	START	1572331897725	1572331897725
+REQUEST	Get Product Details	1		Get all Product Details --> 1st call	1572331897749	1572331897766	OK	 
+REQUEST	Get Product Details	1		Get Prduct Details by Id	1572331902781	1572331902803	OK	 
+REQUEST	Get Product Details	1		Get all Product Details --> 2nd call	1572331904252	1572331904273	OK	 
+USER	Get Product Details	1	END	1572331897725	1572331907295
