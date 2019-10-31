@@ -10,6 +10,6 @@ class BaseSimulation extends Simulation {
   val httpConf = http
     .baseURL(url = "http://localhost:8102/")
     .header(name = "Accept", value = "application/json")
-    .proxy(Proxy("localhost",8888).httpsPort(port = 8888))
+//    .proxy(Proxy("localhost",8888).httpsPort(port = 8888))
 
 }

@@ -11,11 +11,11 @@ class CheckResponseCode extends BaseSimulation {
   val scn = scenario(scenarioName = "Get Product Details")
     .exec(http(requestName = "Get all Product Details --> 1st call")
       .get("api/product/")
-      .check(status.is(expected = 400)))
+      .check(status.is(expected = 200)))
 
     //Check Status Code in Range
     .exec(http(requestName = "Get Prduct Details by Id")
-      .get("api/product/1")
+      .get("api/product/6 ")
       .check(status.in(expected = 200 to 210)))
 
     //Check Status Code is NOT
@@ -26,7 +26,7 @@ class CheckResponseCode extends BaseSimulation {
   // Load Scenarios
 
   setUp(
-    scn.inject(atOnceUsers(users = 1))
+    scn.inject(atOnceUsers(users = 100))
   ).protocols(httpConf)
 
 }
