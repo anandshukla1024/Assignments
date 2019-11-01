@@ -1,0 +1,13 @@
+RUN	simulations.CsvFeeder		csvfeeder	1572522118510	 	2.0
+GROUP	Failed to build request Get Product By ID: No attribute named 'productId' is defined 	1572522120346
+USER	Get Product Details by Id -->	1	START	1572522120329	1572522120329
+GROUP	Failed to build request Get Product By ID: No attribute named 'productId' is defined 	1572522121377
+GROUP	Failed to build request Get Product By ID: No attribute named 'productId' is defined 	1572522122377
+GROUP	Failed to build request Get Product By ID: No attribute named 'productId' is defined 	1572522123378
+GROUP	Failed to build request Get Product By ID: No attribute named 'productId' is defined 	1572522124374
+GROUP	Failed to build request Get Product By ID: No attribute named 'productId' is defined 	1572522125389
+GROUP	Failed to build request Get Product By ID: No attribute named 'productId' is defined 	1572522126366
+GROUP	Failed to build request Get Product By ID: No attribute named 'productId' is defined 	1572522127387
+GROUP	Failed to build request Get Product By ID: No attribute named 'productId' is defined 	1572522128383
+GROUP	Failed to build request Get Product By ID: No attribute named 'productId' is defined 	1572522129387
+USER	Get Product Details by Id -->	1	END	1572522120329	1572522130389

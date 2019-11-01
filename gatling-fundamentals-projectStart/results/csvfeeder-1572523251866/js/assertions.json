@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.CsvFeeder",
+  "simulationId": "csvfeeder",
+  "start": 1572523251866,
+  "description": "",
+  "scenarios": ["Get Product Details by Id -->"],
+  "assertions": [
+
+  ]
+}
